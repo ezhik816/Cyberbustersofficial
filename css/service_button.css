@@ -1,0 +1,21 @@
+.services_order_button {
+  margin: 0 auto;
+	width: 15%;
+	top: 9px;
+	position: relative;
+	height: 65px;
+
+	background: #9F7BCD;
+	border-radius: 5px;
+}
+.services_order_button:hover {
+	background-color: #5413A6;
+}
+
+.mymagicoverbox {
+	position: absolute;
+	top: 33%;
+	left: 47%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}

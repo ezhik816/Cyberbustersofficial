@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.solution_section_1 .title {
+    margin-left: 50px;
+    margin-top: 118px;
+    font-size: 66px;
+}
+
+
+.container-fluide h1 {
+    font-size: 96px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 130px 0 0 0;
+    text-align: center;
+    color: #5413A6;
+}
+
+.container-fluide p {
+    font-size: 36px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+
+.header {
+    float: top;
+    height: 120px;
+    background-color: #5413a6;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.img_seach {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+}
+
+nav {
+    float: left;
+}
+
+.menu {
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+
+.contact {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    float: right;
+    margin-right: 40px;
+    margin-top: 35px;
+}
+
+.inline_image {
+    display: inline;
+}
+
+.image {
+    width: 512px;
+    height: 315px;
+    margin: 50px;
+
+}
+
+.image_big {
+    height: 1461px;
+    width: 1920px;
+    left: 14508px;
+    top: 634px;
+
+}
+
+.center_image {
+    text-align: center;
+
+}
+
+
+
+.request_form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.request_form h1{
+    font-size: 48px;
+    margin-top: 50px;
+
+}
+
+.request_form p{
+    display: inline;
+
+    font-size: 20px;
+
+}
+.request_form .input{
+    margin-top: 50px;
+}
+
+.order_button {
+    margin: auto;
+    width: 20%;
+
+    margin-top: 20px;
+    background-color: #5413A6;
+    border-radius: 5px;
+}
+.order_button p {
+    width: 200px;
+    height: 70px;
+    margin: auto;
+    padding-top: 15px;
+    font-size: 26px;
+    text-align: right;
+    color: #fff;
+}
