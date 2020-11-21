@@ -47,10 +47,47 @@
 	</section>
 	<div id="myfond_gris" opendiv=""></div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<div id="box_1" class="mymagicoverbox_fenetre" style="top:200; left:-450px; width:900px;">
 
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.8.3.min.js"></script>
 
-		<form action="" method="post" class="order_form">
+
+		<script type="text/javascript" language="javascript">
+		function call(){
+			var mag = $('#formx'). serialize();
+			$.ajax({
+				type: 'POST',
+				url: 'post_hendler.php',
+				data: mag,
+				success: function(data){
+					$('#results').html(data);
+				},
+				error: function(xhr, str){
+					alert('Возникла ошибка: ' + xhr.responseCode);
+				}
+			});
+		}
+
+		</script>
+
+
+
+		<form  id ="formx" method="post" action="javascript:void(null);" onsubmit="call()" class="order_form">
 			<div class="container_box">
 				<h1 >Оставьте заявку</h1>
 				<p><b>Оставьте Вашу заявку и мы обязательно с Вами свяжемся</b></p>
@@ -65,16 +102,17 @@
 						<input type="text" placeholder="Название компании" name="company" id="company" required>
 						<input type="text" placeholder="Номер телефона" name="phone_namber" id="phone_namber" required>
 					</div>
-					<textarea class="cotaine_third_line" placeholder="Чем мы можем вам помочь?" name="comment" cols="40" rows="3"></textarea>
+					<textarea class="cotaine_third_line" placeholder="Чем мы можем вам помочь?" name="description" cols="40" rows="3"></textarea>
 
 				</section>
 
 				<div class="contain_submit_button">
-					<button type="value"  class="submit_ored_button">Submit</button>
+					<button type="submit"  class="submit_ored_button">Submit</button>
 				</div>
 
 			</div>
 		</form>
+
 	</div>
 
 	<section class="container-fluide">
